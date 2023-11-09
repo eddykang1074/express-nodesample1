@@ -21,6 +21,9 @@ db.Sequelize = Sequelize; //Sequelize팩키지에서 제공하는 각종 데이�
 
 //게시글모델 모듈파일 참조하고 db속성정의하기
 db.Article = require('./article.js')(sequelize,Sequelize);
+//db.Member = require('./member.js')(sequelize,Sequelize);
+
+
 
 //db객체 외부로 노출하기 
 module.exports = db;
