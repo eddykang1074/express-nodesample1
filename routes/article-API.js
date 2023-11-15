@@ -43,7 +43,7 @@ router.get('/list',async(req,res)=>{
 
 //단일 게시글 신규등록처리 REST API 라우팅 메소드
 //호출유형: post
-//호출주소: http://localhost:3000/api/article/create
+//호출주소: http://localhost:3001/api/article/create
 //반환유형: 지정된 반환형식 
 router.post('/create',async(req,res)=>{
 
